@@ -19,7 +19,7 @@
 19)посмотреть содержимое длинного файла: less -s work1.txt
 20) выведите дату и время:  date $D
 *
-1) отправить http запрос на сервер: https://api.quarantine.country/api/v1/regions
+1) отправить http запрос на сервер: curl https://api.quarantine.country/api/v1/regions
 2) написать скрипт который выполнит автоматически пункты 3,4,5,6,7,8,13 :
 - создаем файл script.sh со следующим содержанием:
 #! /bin/bash
